@@ -1,2 +1,2 @@
-FRC Help System for FRC Questions
-  Maintained by Students
+FRC Help System for FRC Questions<br>
+Maintained by Students
