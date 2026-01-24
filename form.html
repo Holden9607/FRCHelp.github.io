@@ -133,10 +133,13 @@
       <textarea name="More Information"></textarea>
 
       <label>Attach Image (optional)</label>
-      <input type="file" name="attachment1" accept="image/*" />
+      <input type="file" name="Attachment 1" accept="image/*" />
 
       <label>Attach Image (optional)</label>
-      <input type="file" name="attachment2" accept="image/*" />
+      <input type="file" name="Attachment 2" accept="image/*" />
+
+      <label>Attach Image (optional)</label>
+      <input type="file" name="Attachment 3" accept="image/*" />
 
       <button type="submit">Send Question</button>
     </form>
@@ -147,7 +150,7 @@
     document.getElementById("questionForm").addEventListener("submit", function () {
       // Give FormSubmit time to receive the data
       setTimeout(() => {
-        window.location.href = "message-sent.html";
+        window.location.href = "question-sent.html";
       }, 1000); // Safer delay
     });
   </script>
